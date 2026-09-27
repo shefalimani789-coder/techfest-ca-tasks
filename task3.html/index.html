@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Horizon | Parallax Experience</title>
+    <meta
+      name="description"
+      content="Interactive parallax scrolling landing page with layered motion and modern design."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container">
+        <div class="brand">NovaHorizon</div>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#story">Story</a>
+          <a href="#experience">Experience</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="nav-button">Book a Call</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-backdrop">
+          <div class="layer layer-sky" data-speed="0.2"></div>
+          <div class="layer layer-mountain" data-speed="0.45"></div>
+          <div class="layer layer-forest" data-speed="0.7"></div>
+          <div class="layer layer-glow" data-speed="0.95"></div>
+        </div>
+
+        <div class="hero-content container reveal">
+          <p class="eyebrow">Design beyond the ordinary</p>
+          <h1>Explore the future through motion.</h1>
+          <p class="lead">
+            We craft immersive digital experiences that turn ideas into stories,
+            stories into brands, and brands into unforgettable journeys.
+          </p>
+          <div class="hero-actions">
+            <a href="#experience" class="primary-btn">Discover More</a>
+            <a href="#story" class="secondary-btn">Our Story</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <strong>7+</strong>
+              <span>Years building bold digital journeys</span>
+            </div>
+            <div>
+              <strong>120</strong>
+              <span>Global clients across product and media</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="story section" id="story">
+        <div class="container story-wrap">
+          <div class="section-copy reveal">
+            <p class="eyebrow alt">A new perspective</p>
+            <h2>Scroll deeper into what moves people.</h2>
+            <p>
+              Our approach combines strategy, storytelling, and sophisticated
+              design to build experiences that feel natural and unforgettable.
+            </p>
+            <p>
+              Every click, transition, and visual cue is tuned to create emotion,
+              clarity, and momentum for the brands we build with.
+            </p>
+          </div>
+
+          <div class="story-card reveal">
+            <div class="mini-card">
+              <span>Vision</span>
+              <strong>Design with perspective</strong>
+            </div>
+            <div class="mini-card accent">
+              <span>Focus</span>
+              <strong>Build lasting momentum</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience section" id="experience">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow alt">Experience</p>
+            <h2>Built for movement, awe, and clarity.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature reveal">
+              <span class="icon">✦</span>
+              <h3>Immersive Storytelling</h3>
+              <p>
+                Shape elegant narratives that guide visitors through your ideas,
+                products, and values.
+              </p>
+            </article>
+            <article class="feature reveal">
+              <span class="icon">▣</span>
+              <h3>Creative Direction</h3>
+              <p>
+                Blend visual systems, motion, and message into one cohesive,
+                memorable digital presence.
+              </p>
+            </article>
+            <article class="feature reveal">
+              <span class="icon">⬢</span>
+              <h3>Performance Design</h3>
+              <p>
+                Keep the experience smooth, responsive, and beautifully crafted
+                across every device.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="showcase section" id="gallery">
+        <div class="container showcase-wrap">
+          <div class="showcase-panel reveal">
+            <div class="panel-photo photo-one"></div>
+            <div class="panel-info">
+              <p>Urban Motion</p>
+              <h3>Artful experiences for modern brands.</h3>
+            </div>
+          </div>
+
+          <div class="showcase-panel reveal stagger">
+            <div class="panel-photo photo-two"></div>
+            <div class="panel-info">
+              <p>Atmospheric Design</p>
+              <h3>Crafting emotion through layered visuals.</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial section">
+        <div class="container">
+          <div class="quote-card reveal">
+            <p>
+              “NovaHorizon helped us turn a simple idea into a digital story that
+              people remember long after the first scroll.”
+            </p>
+            <div class="author">
+              <strong>Amelia Hart</strong>
+              <span>Creative Director, Luma Studio</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-wrap">
+        <div>
+          <p class="eyebrow alt">Let’s build something remarkable</p>
+          <h2>Ready to launch your next breakthrough?</h2>
+        </div>
+        <a href="mailto:hello@novahorizon.com" class="primary-btn">hello@novahorizon.com</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
